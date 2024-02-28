@@ -1,0 +1,274 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<UserForm /> > Should render correctly to the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="w-80 rounded bg-white px-6 pt-3 shadow-lg h-fit mt-3 md:mt-0"
+  >
+    <div
+      class="flex items-center justify-center pt-4 pb-4"
+    >
+      <svg
+        color="#a855f7"
+        fill="none"
+        height="120"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        style="color: #a855f7;"
+        viewBox="0 0 24 24"
+        width="120"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m16 16 2 2 4-4"
+        />
+        <path
+          d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"
+        />
+        <path
+          d="M16.5 9.4 7.55 4.24"
+        />
+        <polyline
+          points="3.29 7 12 12 20.71 7"
+        />
+        <line
+          x1="12"
+          x2="12"
+          y1="22"
+          y2="12"
+        />
+      </svg>
+    </div>
+    <div
+      class="flex flex-col justify-center items-center gap-2"
+    >
+      <h4
+        class="font-semibold"
+      >
+        Delivery Business Inc.
+      </h4>
+      <p
+        class="text-xs text-center"
+      >
+        123 Address St. Addressville, Addressland 123456
+      </p>
+    </div>
+    <div
+      class="flex flex-col gap-3 border-b py-6 text-xs"
+    >
+      <p
+        class="flex justify-between"
+      >
+        <span
+          class="text-black opacity-45"
+        >
+          Receipt Number:
+        </span>
+        <span>
+          #12345
+        </span>
+      </p>
+      <p
+        class="flex justify-between"
+      >
+        <span
+          class="text-black opacity-45"
+        >
+          Order Type:
+        </span>
+        <span>
+          Delivery
+        </span>
+      </p>
+      <p
+        class="flex justify-between"
+      >
+        <span
+          class="text-black opacity-45"
+        >
+          Customer:
+        </span>
+        <span>
+          Anonymous
+        </span>
+      </p>
+    </div>
+    <div
+      class="flex flex-col gap-3 pb-6 pt-2 text-xs"
+    >
+      <table
+        class="w-full text-left"
+      >
+        <thead>
+          <tr
+            class="flex"
+          >
+            <th
+              class="w-full py-2"
+            >
+              Delivery Fee Surcharges
+            </th>
+            <th
+              class="min-w-[44px] py-2"
+            >
+              Fee
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="flex items-center"
+          >
+            <td
+              class="flex-1 py-1"
+            >
+              Cart Value
+            </td>
+            <td
+              class="min-w-[44px] py-1"
+              data-testid="cartValueSurcharge"
+            >
+              9€
+            </td>
+          </tr>
+          <tr
+            class="flex items-center"
+          >
+            <td
+              class="flex-1 py-1"
+            >
+              Delivery Distance
+            </td>
+            <td
+              class="min-w-[44px] py-1"
+              data-testid="deliveryDistanceSurcharge"
+            >
+              3€
+            </td>
+          </tr>
+          <tr
+            class="flex items-center"
+          >
+            <td
+              class="flex-1 py-1"
+            >
+              Item Amount
+            </td>
+            <td
+              class="min-w-[44px] py-1"
+              data-testid="numberOfItemsSurcharge"
+            >
+              0.50€
+            </td>
+          </tr>
+          <tr
+            class="flex items-center"
+          >
+            <td
+              class="flex-1 py-1"
+            >
+              Rush Hour
+            </td>
+            <td
+              class="min-w-[44px] py-1"
+              data-testid="orderTimeSurcharge"
+            >
+              1.00€
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table
+        class="w-full text-left"
+      >
+        <thead>
+          <tr
+            class="flex items-center"
+          >
+            <th
+              class="w-full py-2"
+            >
+              Order Total
+            </th>
+            <th
+              class="min-w-[44px] py-2"
+            >
+              Sum
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="flex items-center"
+          >
+            <td
+              class="flex-1 py-1"
+            >
+              Sum of Surcharges
+            </td>
+            <td
+              class="min-w-[44px]"
+              data-testid="totalSurcharge"
+            >
+              13.50€
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr
+        class=" border-b border border-solid"
+      />
+      <div
+        class="py-4 px-12 items-start flex flex-col gap-2"
+      >
+        <p
+          class="flex items-center gap-2"
+        >
+          <svg
+            fill="#a855f7"
+            height="15"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="15"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
+            />
+          </svg>
+          info@deliverybusiness.com
+        </p>
+        <p
+          class="flex items-center gap-2"
+        >
+          <svg
+            fill="#a855f7"
+            height="15"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="15"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+            />
+          </svg>
+          +358-XXX-XXXX
+        </p>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

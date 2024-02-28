@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Information /> > Should render correctly to the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="bg-purple-400 text-purple-50 py-3 px-4 rounded shadow-lg h-fit w-[22rem] md:w-[27rem]"
+  >
+    <div>
+      <div
+        class="font-semibold flex items-center gap-2 cursor-pointer select-none w-fit"
+      >
+        <svg
+          fill="currentColor"
+          height="13"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="13"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+          />
+        </svg>
+        <span
+          class="translate-y-[-1px] text-lg"
+          data-testid="mainItemTitle"
+        >
+          About this app
+        </span>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

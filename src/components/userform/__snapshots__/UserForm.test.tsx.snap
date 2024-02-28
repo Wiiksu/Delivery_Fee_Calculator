@@ -1,0 +1,99 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<UserForm /> > Should render correctly to the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="bg-purple-400 px-6 pb-6 pt-2 rounded shadow-lg h-fit w-[22rem] md:w-[27rem]"
+  >
+    <h2
+      class="text-center text-purple-50 text-2xl font-bold py-2 mt-3 mb-4 bg-purple-500 border-2 border-purple-50 border-opacity-60 rounded-md select-none"
+    >
+      Order Details
+    </h2>
+    <form
+      class="flex flex-col gap-1"
+      novalidate=""
+    >
+      <section>
+        <div
+          class="relative flex w-full items-center"
+        >
+          <label
+            class="text-purple-50 font-semibold w-[6rem] md:w-40 leading-5 md:leading-none text-base md:text-lg"
+          >
+            Cart Value:
+          </label>
+          <input
+            class="w-52 rounded py-1 px-2 outline-none box-border border-collapse border-2 border-purple-50 border-opacity-60 focus:border-purple-500 focus:border-2"
+            data-testid="cartValue"
+            name="cartValue"
+            type="text"
+          />
+        </div>
+      </section>
+      <section>
+        <div
+          class="relative flex w-full items-center"
+        >
+          <label
+            class="text-purple-50 font-semibold w-[6rem] md:w-40 leading-5 md:leading-none text-base md:text-lg"
+          >
+            Delivery distance:
+          </label>
+          <input
+            class="w-52 rounded py-1 px-2 outline-none box-border border-collapse border-2 border-purple-50 border-opacity-60 focus:border-purple-500 focus:border-2"
+            data-testid="deliveryDistance"
+            name="deliveryDistance"
+            type="text"
+          />
+        </div>
+      </section>
+      <section>
+        <div
+          class="relative flex w-full items-center"
+        >
+          <label
+            class="text-purple-50 font-semibold w-[6rem] md:w-40 leading-5 md:leading-none text-base md:text-lg"
+          >
+            Amount of items:
+          </label>
+          <input
+            class="w-52 rounded py-1 px-2 outline-none box-border border-collapse border-2 border-purple-50 border-opacity-60 focus:border-purple-500 focus:border-2"
+            data-testid="numberOfItems"
+            name="numberOfItems"
+            type="text"
+          />
+        </div>
+      </section>
+      <section>
+        <div
+          class="relative flex w-full items-center"
+        >
+          <label
+            class="text-purple-50 font-semibold w-[6rem] md:w-40 leading-5 md:leading-none text-base md:text-lg"
+          >
+            Time:
+          </label>
+          <input
+            class="w-52 rounded py-1 px-2 outline-none box-border border-collapse border-2 border-purple-50 border-opacity-60 focus:border-purple-500 focus:border-2"
+            data-testid="orderTime"
+            name="orderTime"
+            type="datetime-local"
+          />
+        </div>
+      </section>
+      <div
+        class="flex flex-col mt-2 gap-3"
+      >
+        <button
+          class="bg-purple-500 text-purple-50 text-lg border-2 border-purple-50 border-opacity-60 font-semibold py-1 px-2 rounded-md hover:bg-purple-600"
+          data-testid="submitButton"
+          type="submit"
+        >
+          Calculate Delivery Fee
+        </button>
+      </div>
+    </form>
+  </section>
+</DocumentFragment>
+`;

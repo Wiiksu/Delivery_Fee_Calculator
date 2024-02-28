@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<InputField /> > Should render correctly to the snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <div
+      class="relative flex w-full items-center"
+    >
+      <label
+        class="text-purple-50 font-semibold w-[6rem] md:w-40 leading-5 md:leading-none text-base md:text-lg"
+      >
+        Test Label:
+      </label>
+      <input
+        class="w-52 rounded py-1 px-2 outline-none box-border border-collapse border-2 border-purple-50 border-opacity-60 focus:border-purple-500 focus:border-2"
+        data-testid="inputField"
+      />
+    </div>
+  </section>
+</DocumentFragment>
+`;
