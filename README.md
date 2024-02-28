@@ -1,6 +1,6 @@
 # Delivery Surcharge App
 
-![Alt text](src\assets\appscreenshot.JPG?raw=true)
+![Screenshot](src\assets\appscreenshot.JPG)
 
 ## Description
 
