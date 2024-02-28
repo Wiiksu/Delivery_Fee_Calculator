@@ -1,6 +1,6 @@
 # Delivery Surcharge App
 
-![Screenshot]([src\assets\appscreenshot.JPG](https://github.com/Wiiksu/Delivery_Fee_Calculator/blob/master/src/assets/appscreenshot.JPG))
+![Screenshot](https://github.com/Wiiksu/Delivery_Fee_Calculator/blob/master/src/assets/appscreenshot.JPG)
 
 ## Description
 
