@@ -2,7 +2,7 @@
 
 ## Description
 
-Assignment based on [https://github.com/woltapp/engineering-internship-2024] front-end portion. The purpose of this application is to showcase my skills in making a working project with reusable components with consistent styling, data transferability with form validation + error catching and proper unit testing.
+Assignment based on [https://github.com/woltapp/engineering-internship-2024] front-end portion. The purpose of this application is to showcase my skills in making a working project with reusable components, consistent styling, data transferability with form validation + error catching and proper unit testing.
 
 ## Requirements
 
